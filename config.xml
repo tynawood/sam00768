@@ -1,14 +1,14 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.moneybox2.app" version="1.0.0">
-     <name>Access Mpower </name>
+     <name>SAM APP</name>
 
     <description>
-       Access Mpower Salary Account App
+       Sampson Amoateng Ministries
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
        inappshub
     </author>
-<preference name="phonegap-version" value="4.0.0" /> 
+<preference name="phonegap-version" value="2.5.0" /> 
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
