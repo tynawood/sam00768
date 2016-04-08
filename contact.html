@@ -278,9 +278,15 @@ $('form').submit( function() {
       type: 'POST',
       data: new FormData( this ),
  
-        sucess: function (data) {
-            //alert('Email Sent Successfully');
-             window.location.href = "contact_thanks.html";
+       success: function(data){
+            console.log(data);
+            alert('Contact Sent sucessfully ');
+            window.location.href = "index.html";
+        },
+        error: function(data){
+            console.log(data);
+            alert('Contact Sent sucessfully');
+            window.location.href = "index.html";
         },
       
         cache: false,
