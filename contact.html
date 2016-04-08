@@ -67,10 +67,12 @@
 							<a href="event.html">Events</a>
 						</li>
 						<li>
-							<a href="donate.html">Partnership & Donate</a>
+							<a href="donate.html">Partnership </a>
 						</li>
 						
-						
+						<li>
+							<a href="donate2.html">Donate </a>
+						</li>
 						
 						
 					</ul>
@@ -276,9 +278,9 @@ $('form').submit( function() {
       type: 'POST',
       data: new FormData( this ),
  
-        error: function (data) {
-            alert('Email Sent Successfully');
-             //window.location.href = "index.html";
+        sucess: function (data) {
+            //alert('Email Sent Successfully');
+             window.location.href = "contact_thanks.html";
         },
       
         cache: false,
